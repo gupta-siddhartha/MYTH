@@ -67,9 +67,13 @@ After all steps, when you will see a Thank you message, you may look into
 your MYTH/test/myth-pluto-neqg/, which must contain the following files:
 
 checkinput0004.png: z=0 slice of input data file
+
 unigriddata0004.txt: Interpolated data with user's specified resolution.
+
 checkdump0004.png: z=0 slice of interpolated data file 
+
 volren0004-transferfunction.png: Density transfer function. Note: label may not be correct.
+
 volren0004.0001.png: Final output
 
 To check whether everything is correct or not, you
