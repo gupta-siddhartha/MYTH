@@ -27,9 +27,9 @@ Nx1, Nx2, Nx3 = 200, 60, 80
 ########################################
 #FreshRead = yes or no:
 # Fresh reading or Read from file dumped  previously (to save time) 
-FreshRead = 'no'
+FreshRead = 'yes'
 # ConverToUniformGrid= yes/np
-ConverToUniformGrid= 'no'
+ConverToUniformGrid= 'yes'
 # Resol_x1, Resol_x2, Resol_x3= no of grids
 Resol_x1, Resol_x2, Resol_x3 = 100, 50, 70
 #Interpolationbox=['yes/no',Xmin,Xmax, Ymin,Ymax, Zmin,Zmax]
@@ -62,10 +62,10 @@ colorbound = [1e-3,10]
 #ZoomedOperation = ['yes/no']
 ZoomedOperation  = ['no']
 #ZoomingInfo     = [Lini,Lmin,Lmax, dL ]
-ZoomingInfo      = [1.5,0.3,0.5,0.4]
+ZoomingInfo      = [1.5,0.2,1.5,0.01]
 #Rotation = 'yes/no',angle of rotation,steps involved in 180 rotations
 import numpy as np
-Rotation  = ['no',np.pi,4] 
+Rotation  = ['no',np.pi,50] 
 
 ########################################
 #            Complete
