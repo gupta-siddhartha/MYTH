@@ -50,19 +50,19 @@ To run this code you will need python 3 and the yt in your pc.
 In MYTH/test/plutodata_neqg/, a sample data file is provided.
 
 Data is in 3D cartesian coordinate, nx*ny*nz = 200*60*80
->> Open terminal and go inside MYTH directory and then type
+Open terminal and go inside MYTH directory and then type
     cd src
->> Look at user_input.py file. You will notice 
-InputPath  = "../test/plutodata_neqg/"
-OutputPath = "../test/myth-pluto-neqg/"
->> These mean, if you run MYTH then it will generate output in ../test/myth-pluto-neqg/ 
->> To run MYTH, use the following command on the terminal (note: you are inside src/)
+Look at user_input.py file. You will notice 
+ InputPath  = "../test/plutodata_neqg/"
+ OutputPath = "../test/myth-pluto-neqg/"
+These mean, if you run MYTH then it will generate output in ../test/myth-pluto-neqg/ 
+To run MYTH, use the following command on the terminal (note: you are inside src/)
 
     python myth.py
 
->> Please wait. It will take a while (for this test it may take ~ 2 min).
->> After all steps, when you will see a Thank you message, you may look into 
->> your MYTH/test/myth-pluto-neqg/  
+Please wait. It will take a while (for this test it may take ~ 2 min).
+After all steps, when you will see a Thank you message, you may look into 
+your MYTH/test/myth-pluto-neqg/  
 
 To check whether everything is correct or not, you
 may visit https://astro.uchicago.edu/~siddhartha/#codes.
