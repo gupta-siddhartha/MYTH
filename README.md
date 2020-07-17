@@ -7,7 +7,7 @@
  Author of the MYTH code, Siddhartha Gupta, is a postdoctoral scholar 
  in the Department of Astronomy and Astrophysics at the University of Chicago.
 
- Please note, MYTH is not corrected with the yt community
+ Please note, MYTH is not connected with the yt community
  neither it wants to violate any copyrights of yt.
 
  The main intention of developing MYTH is to provide a simple 
