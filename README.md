@@ -16,6 +16,7 @@
 #****************************************************
 # Installations
 #****************************************************
+
 To run this code you will need python 3 and the yt in your pc.
 
 1. You should have Python 3 installed in your mac. 
@@ -33,6 +34,7 @@ To run this code you will need python 3 and the yt in your pc.
 #****************************************************
 #  How to run
 #****************************************************
+
 1. Use the guidelines in users_input.py
 2. If want to use log file, set PrintLog == 'yes' in users_input.py
 3. Use the following command to run.
@@ -42,6 +44,7 @@ To run this code you will need python 3 and the yt in your pc.
 #****************************************************
 #  Test run 
 #****************************************************
+
 1. After successful installation, you may run a test job.
 
 In MYTH/test/plutodata_neqg/, a sample data file is provided.
@@ -67,6 +70,7 @@ may visit https://astro.uchicago.edu/~siddhartha/#codes.
 #****************************************************
 #  Note
 #****************************************************
+
 1. Do not touch myth.py unless you wish to do some runtime analysis
 
 2. Current version of MYTH read PLUTO dbl file format and extract only density column.
@@ -80,6 +84,7 @@ may visit https://astro.uchicago.edu/~siddhartha/#codes.
 #****************************************************
 #  List of files and their roles.
 #****************************************************
+
 1. myth.py        ==> main file
 2. headers.py     ==> imports all necessary python dir
 3. readfile.py    ==> reads all data file
