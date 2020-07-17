@@ -51,7 +51,9 @@ In MYTH/test/plutodata_neqg/, a sample data file is provided.
 
 Data is in 3D cartesian coordinate, nx*ny*nz = 200*60*80
 Open terminal and go inside MYTH directory and then type
+
     cd src
+
 Look at user_input.py file. You will notice 
  InputPath  = "../test/plutodata_neqg/"
  OutputPath = "../test/myth-pluto-neqg/"
