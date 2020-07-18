@@ -11,7 +11,8 @@
  nor it wants to violate any copyright of yt-project.
 
  The main intention of developing MYTH is to provide a simple 
- user-friendly interface to compile yt-rendering.
+ user-friendly interface to compile yt-rendering. Code documentation
+can be found at https://astro.uchicago.edu/~siddhartha/MYTH/myth.html
 
 #****************************************************
 # Installations
@@ -26,10 +27,8 @@ To run this code you will need python 3 and the yt in your pc.
    https://yt-project.org/doc/installing.html#activating-your-installation. 
 
 3. You can directly download MYTH from 
-   'git@github.com:gupta-siddhartha/MYTH.git'
-   or use the following command:
+   https://github.com/gupta-siddhartha/MYTH
 
-   git clone git@github.com:gupta-siddhartha/MYTH.git
 
 #****************************************************
 #  How to run
@@ -47,18 +46,15 @@ To run this code you will need python 3 and the yt in your pc.
 
 After successful installation, you may run a test job.
 
-In MYTH/test/plutodata_neqg/, a sample data file is provided.
-
-Data is in 3D cartesian coordinate, nx*ny*nz = 200*60*80
-Open terminal and go inside MYTH directory and then type
+In MYTH/test/plutodata_neqg/, sample data files (data.0004.dbl,grid.out,stars.0004.txt) are provided. Data is in 3D cartesian coordinate, nx*ny*nz = 200*60*80. 
 
     cd src
 
 Look into user_input.py file. You will notice:
  InputPath  = "../test/plutodata_neqg/".
  OutputPath = "../test/myth-pluto-neqg/".
-These mean, if you run MYTH then it will generate output at ../test/myth-pluto-neqg/ 
-To run MYTH, use the following command on the terminal (note: you are inside src/)
+It means, if you run MYTH then it will generate output at ../test/myth-pluto-neqg/. 
+To run MYTH, use the following command on the terminal (note: your current directory is 'src'):
 
     python myth.py
 
@@ -77,7 +73,7 @@ volren0004-transferfunction.png: Density transfer function. Note: label may not 
 volren0004.0001.png: Final output
 
 To check whether everything is correct or not, you
-may visit https://astro.uchicago.edu/~siddhartha/#codes.
+may visit https://astro.uchicago.edu/~siddhartha/MYTH/myth.html
 
 #****************************************************
 #  Note
