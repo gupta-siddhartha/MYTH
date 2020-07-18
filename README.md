@@ -29,6 +29,9 @@ To run this code you will need python 3 and the yt in your pc.
 3. You can directly download MYTH from 
    https://github.com/gupta-siddhartha/MYTH
 
+   or Use the following command in your terminal
+
+   git clone git@github.com:gupta-siddhartha/MYTH.git
 
 #****************************************************
 #  How to run
