@@ -46,7 +46,7 @@ To run this code you will need python 3 and the yt in your pc.
 
 After successful installation, you may run a test job.
 
-In MYTH/test/plutodata_neqg/, sample data files (data.0004.dbl,grid.out,stars.0004.txt) are provided. Data is in 3D cartesian coordinate, nx*ny*nz = 200*60*80. 
+In MYTH/test/plutodata_neqg/, sample data files (data.0004.dbl,grid.out,stars.0004.txt) are provided. Data is in 3D cartesian coordinate, nx x ny x nz = 200x60x80. 
 
     cd src
 
