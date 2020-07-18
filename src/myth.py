@@ -1,5 +1,5 @@
 #======================================================================
-# MYTH : Multipurpose code complies YT-rendering for Hydro-simulations
+# MYTH : Multipurpose code compiles YT-rendering for Hydro-simulations
 #  
 # Author: Siddhartha Gupta
 # contact: gsiddhartha@uchicago.edu
