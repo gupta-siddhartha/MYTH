@@ -1,17 +1,17 @@
 # ==========================================================================
-#  M Y T H :  Multipurpose code complies YT-rendering for Hydro-simulations
+#  M Y T H :  Multipurpose YT-rendering code for Hydro-simulations
 # ==========================================================================
 
  M Y T H is a multipurpose YT-rendering code especially designed 
- for compelling the 'yt-rendering' (https://yt-project.org/). 
+ to compile the 'yt-rendering' (https://yt-project.org/). 
  Author of the MYTH code, Siddhartha Gupta, is a postdoctoral scholar 
  in the Department of Astronomy and Astrophysics at the University of Chicago.
 
- Please note, MYTH is not connected with the yt community
- neither it wants to violate any copyrights of yt.
+ Please note, MYTH is neither connected with the yt community
+ nor it wants to violate any copyright of yt-project.
 
  The main intention of developing MYTH is to provide a simple 
- user-friendly interface to complies yt-rendering.
+ user-friendly interface to compile yt-rendering.
 
 #****************************************************
 # Installations
@@ -45,7 +45,7 @@ To run this code you will need python 3 and the yt in your pc.
 #  Test run 
 #****************************************************
 
-1. After successful installation, you may run a test job.
+After successful installation, you may run a test job.
 
 In MYTH/test/plutodata_neqg/, a sample data file is provided.
 
