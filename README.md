@@ -85,7 +85,7 @@ may visit https://astro.uchicago.edu/~siddhartha/MYTH/myth.html
    If you wish to read other formats, then please do so by following 
    the guidelines in 'readfile.py'
 
-3. The current version has been checked on MPI/Open-MPI or similar platform for the parallel job, but it may not be difficult to extend it. 
+3. The current version has NOT been checked on MPI/Open-MPI or similar platform for the parallel job, but it may not be difficult to extend it. 
 
 4. Most importantly, you must have sufficient space/memory in your machine in order to run yt.
 
